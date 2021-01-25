@@ -9,6 +9,7 @@ import ComFilhos from './components/basic/ComFilhos'
 import Card from './components/layout/Card'
 import Repeticao from './components/basic/Repetition'
 import Condicional from './components/basic/condicional'
+import Add from './components/basic/add'
 
 
 export default (props) =>
@@ -36,5 +37,8 @@ export default (props) =>
       </Card>
       <Card title="Props">
         <ComParamentros title="using more than one parameter with different values" subtitle='using props'/>
+      </Card>
+      <Card title="Type addition">
+        <Add  value1={42} value2={2} />
       </Card>
   </div>
