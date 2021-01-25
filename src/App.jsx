@@ -39,6 +39,6 @@ export default (props) =>
         <ComParamentros title="using more than one parameter with different values" subtitle='using props'/>
       </Card>
       <Card title="Type addition">
-        <Add  value1={42} value2={2} />
+        <Add  value1={4} value2={2} />
       </Card>
   </div>
